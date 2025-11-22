@@ -1,0 +1,4 @@
+123|Leevi Korpi|2025-10-31|10:00|2|19.95|True|Kokoustila A|0401234567|leevi.korpi@example.com
+124|Anna Virtanen|2025-11-02|14:30|3|15.50|False|Neuvotteluhuone B|0409876543|anna.virtanen@example.com
+125|Marko Lehtinen|2025-12-05|09:00|1|29.00|True|Kokoustila C|0451122334|marko.lehtinen@example.com
+
