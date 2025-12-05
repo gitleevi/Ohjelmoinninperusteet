@@ -192,9 +192,20 @@ def main():
     rajapvm = date(vv, kk, paiva)
     
     print("\nVaraukset annetun päivän jälkeen:")
+
+    tulevat = []   # <-- LISÄTÄÄN LISTA
+
     for rivi in varaukset:
         v = muunna_varaustiedot(rivi)
         if v.pvm > rajapvm:
+            tulevat.append(v)   # <-- TALLETETAAN LISTAAN
+
+    # nyt voidaan tarkistaa
+    if not tulevat:
+        print("Ei varauksia annetun päivän jälkeen.")
+    else:
+        print("Varaukset annetun päivän jälkeen:")
+        for v in tulevat:
             pvm = v.pvm.strftime("%d.%m.%Y")
             klo = v.aika.strftime("%H.%M")
             print(f"- {v.nimi}, {pvm} klo {klo}, {v.tila}")
