@@ -1,0 +1,3 @@
+201|Muumi Muumilaakso|muumi@valkoinenlaakso.org|0509876543|2025-11-12|07:00|2|18.50|True|Metsätila 1|2025-08-12 14:33:20
+202|Haisuli Muumilaakso|muumi@haisuli.org|0509849541|2025-11-12|09:00|2|13.20|False|Metsätila 2|2025-08-12 14:33:20
+203|Niiskuneiti Muumilaakso|muumi@niiskuneiti.org|0509876529|2025-11-12|12:00|2|19.30|True|Metsätila 3|2025-08-12 14:33:20
