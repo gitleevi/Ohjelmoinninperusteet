@@ -1,5 +1,6 @@
 #Lue_varaukset.py Viikko7 - Leevi Korpi
 
+#Käytän sanakirjaa, koodi tulee selkeämmäksi ja on helposti luettavissa
 
 from datetime import datetime, date, time
 
