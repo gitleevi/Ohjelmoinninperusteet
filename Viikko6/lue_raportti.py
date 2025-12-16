@@ -1,4 +1,6 @@
+# Copyright (c) 2025 Leevi Korpi
 
+# License: MIT
 
 from __future__ import annotations
 
