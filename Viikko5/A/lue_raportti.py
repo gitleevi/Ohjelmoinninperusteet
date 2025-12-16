@@ -15,15 +15,15 @@ def lue_data(tiedoston_nimi: str) -> List[Dict[str, object]]:  #Lukee CSV-tiedos
 
     rivit: List[Dict[str, float]] = []
     with open(tiedoston_nimi, "r", encoding="utf-8") as f:
-        lukija = csv.DictReader(f, delimiter=",")
+        lukija = csv.DictReader(f, delimiter=";")
         for row in lukija:
-            aika = datetime.fromisoformat(row["aika"]) #Muunnetaan aika datetime-olioksi
-            kulutus_v1 = float(row["kulutus_v1"])
-            kulutus_v2 = float(row["kulutus_v2"])
-            kulutus_v3 = float(row["kulutus_v3"])
-            tuotanto_v1 = float(row["tuotanto_v1"])
-            tuotanto_v2 = float(row["tuotanto_v2"])
-            tuotanto_v3 = float(row["tuotanto_v3"])
+            aika = datetime.fromisoformat(row["Aika"]) #Muunnetaan aika datetime-olioksi
+            kulutus_v1 = float(row["Kulutus vaihe 1 Wh"])
+            kulutus_v2 = float(row["Kulutus vaihe 2 Wh"])
+            kulutus_v3 = float(row["Kulutus vaihe 3 Wh"])
+            tuotanto_v1 = float(row["Tuotanto vaihe 1 Wh"])
+            tuotanto_v2 = float(row["Tuotanto vaihe 2 Wh"])
+            tuotanto_v3 = float(row["Tuotanto vaihe 3 Wh"])
 
             rivit.append(
                 {
@@ -98,7 +98,7 @@ def tulosta_raportti(paiva_summat_kwh: Dict[date, Tuple[Tuple[float, float, floa
     print("Viikon 42 Sähkönkulutus ja -tuontanto (kWh, vaiheittain)")
     print()
     print(
-        "Päivä     Pvm     Kulutus (kWh)     Tuotanto (kWh)"
+        "Päivä     Pvm                        Kulutus (kWh)     Tuotanto (kWh)"
     )
     print(
         "(pv.kk.vvvv)                  V1     V2     V3      |     V1     V2     V3"
