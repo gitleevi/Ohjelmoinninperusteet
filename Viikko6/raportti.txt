@@ -1,0 +1,10 @@
+Päiväkohtainen yhteenveto (aikaväli)
+Aikaväli: 10.5.2025 - 10.11.2025
+--------------------------------------------------
+Kokonaiskulutus: 2158,39 kWh
+Kokonaistuotanto: 2310,56 kWh
+Nettokuorma (kulutus - tuotanto): -152,17 kWh
+Keskilämpötila (tuntien keskiarvo): 13,30 °C
+--------------------------------------------------
+Suurin päiväkulutus: 2.11.2025 | 38,86 kWh | lämpö 7,00 °C
+Pienin päiväkulutus: 20.6.2025 | 1,65 kWh | lämpö 14,70 °C
